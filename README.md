@@ -6,6 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+// Run these commands from your command line
+npx create-react-app chatbot
+cd chatbot
+yarn add react-chatbot-kit
+yarn start
+
 ### `yarn start`
 
 Runs the app in the development mode.\
