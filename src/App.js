@@ -10,6 +10,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <video controls width="240" height="180" >
+          <source src="" />
+        </video>
         <Chatbot
           config={config}
           actionProvider={ActionProvider}
