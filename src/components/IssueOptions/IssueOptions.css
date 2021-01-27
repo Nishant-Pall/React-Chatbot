@@ -1,0 +1,15 @@
+.issue-options-container{
+    display:flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.issue-option-button{
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: 550;
+    background: rgb(169, 224, 222);
+    border: 1px solid rgb(169, 224, 222);
+    margin:3px;
+}
