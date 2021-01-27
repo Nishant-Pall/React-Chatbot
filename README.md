@@ -10,7 +10,7 @@ In the project directory, you can run:
 `npx create-react-app chatbot` \
 `cd chatbot` \
 `yarn add react-chatbot-kit` \
-`yarn start` \
+`yarn start` 
 
 ### `yarn start`
 
