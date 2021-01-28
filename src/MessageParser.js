@@ -14,8 +14,25 @@ class MessageParser {
         }
 
         if (lowerCaseMessage.includes("Leather Sofa")) {
-            console.log("Clicked")
-            this.actionProvider.handleLeatherSofa()
+            this.actionProvider.handlerLeatherSofa()
+        }
+        if (lowerCaseMessage.includes("Sofa")) {
+            this.actionProvider.handlerSofa()
+        }
+        if (lowerCaseMessage.includes("Carpet")) {
+            this.actionProvider.handlerCarpet()
+        }
+        if (lowerCaseMessage.includes("House Cleaning")) {
+            this.actionProvider.handlerHouseCleaning()
+        }
+        if (lowerCaseMessage.includes("Kitchen")) {
+            this.actionProvider.handlerKitchen()
+        }
+        if (lowerCaseMessage.includes("Bathroom")) {
+            this.actionProvider.handlerBathroom()
+        }
+        if (lowerCaseMessage.includes("Full House")) {
+            this.actionProvider.handlerFullHouse()
         }
     }
 }
