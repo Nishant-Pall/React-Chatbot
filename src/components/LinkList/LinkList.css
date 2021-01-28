@@ -9,10 +9,11 @@
 
 .link-list-item-url{
     text-decoration: non;
+    font-weight: 550;
     margin: 6px;
     display: block;
     color: #1d1d1d;
-    background-color: #f1f1f1;
+    background-color: yellow;
     padding: 8px;
     border-radius: 3px;
     box-shadow: 2px 2px 4px rgba(150, 149, 149, 0.4);
