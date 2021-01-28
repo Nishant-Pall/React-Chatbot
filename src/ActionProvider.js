@@ -11,11 +11,65 @@ class ActionProvider {
         this.updateChatbotState(greetingMessage)
     }
 
-    handleLeatherSofa = () => {
+    handlerSofa = () => {
         const message = this.createChatBotMessage(
             "What do you want to know?",
             {
                 widget: "leathersofa",
+            }
+        )
+        this.updateChatbotState(message)
+    }
+    handleLeatherSofa = () => {
+        const message = this.createChatBotMessage(
+            "What do you want to know?",
+            {
+                widget: "sofa",
+            }
+        )
+        this.updateChatbotState(message)
+    }
+    handlerCarpet = () => {
+        const message = this.createChatBotMessage(
+            "What do you want to know?",
+            {
+                widget: "carpet",
+            }
+        )
+        this.updateChatbotState(message)
+    }
+    handlerKitchen = () => {
+        const message = this.createChatBotMessage(
+            "What do you want to know?",
+            {
+                widget: "kitchen",
+            }
+        )
+        this.updateChatbotState(message)
+    }
+    handlerBathroom = () => {
+        const message = this.createChatBotMessage(
+            "What do you want to know?",
+            {
+                widget: "bathroom",
+            }
+        )
+        this.updateChatbotState(message)
+    }
+    handlerFullHouse = () => {
+        const message = this.createChatBotMessage(
+            "What do you want to know?",
+            {
+                widget: "fullhouse",
+            }
+        )
+        this.updateChatbotState(message)
+    }
+    handlerHouseCleaning = () => {
+        const message = this.createChatBotMessage(
+            "What do you want to know?",
+            {
+                widget: "housecleaning",
             }
         )
         this.updateChatbotState(message)

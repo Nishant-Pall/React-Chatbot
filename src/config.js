@@ -43,6 +43,126 @@ const config = {
                 ],
             },
         },
+        {
+            widgetName: "sofa",
+            widgetFunc: (props) => <LinkList {...props} />,
+            props: {
+                options: [
+                    {
+                        text: "Process of Cleaning",
+                        url:
+                            "",
+                        id: 1,
+                    },
+                    {
+                        text: "Charges",
+                        url:
+                            "",
+                        id: 2,
+                    },
+                ],
+            },
+        },
+        {
+            widgetName: "carpet",
+            widgetFunc: (props) => <LinkList {...props} />,
+            props: {
+                options: [
+                    {
+                        text: "Process of Cleaning",
+                        url:
+                            "",
+                        id: 1,
+                    },
+                    {
+                        text: "Charges",
+                        url:
+                            "",
+                        id: 2,
+                    },
+                ],
+            },
+        },
+        {
+            widgetName: "housecleaning",
+            widgetFunc: (props) => <LinkList {...props} />,
+            props: {
+                options: [
+                    {
+                        text: "Process of Cleaning",
+                        url:
+                            "",
+                        id: 1,
+                    },
+                    {
+                        text: "Charges",
+                        url:
+                            "",
+                        id: 2,
+                    },
+                ],
+            },
+        },
+        {
+            widgetName: "kitchen",
+            widgetFunc: (props) => <LinkList {...props} />,
+            props: {
+                options: [
+                    {
+                        text: "Process of Cleaning",
+                        url:
+                            "",
+                        id: 1,
+                    },
+                    {
+                        text: "Charges",
+                        url:
+                            "",
+                        id: 2,
+                    },
+                ],
+            },
+        },
+        {
+            widgetName: "bathroom",
+            widgetFunc: (props) => <LinkList {...props} />,
+            props: {
+                options: [
+                    {
+                        text: "Process of Cleaning",
+                        url:
+                            "",
+                        id: 1,
+                    },
+                    {
+                        text: "Charges",
+                        url:
+                            "",
+                        id: 2,
+                    },
+                ],
+            },
+        },
+        {
+            widgetName: "fullhouse",
+            widgetFunc: (props) => <LinkList {...props} />,
+            props: {
+                options: [
+                    {
+                        text: "Process of Cleaning",
+                        url:
+                            "",
+                        id: 1,
+                    },
+                    {
+                        text: "Charges",
+                        url:
+                            "",
+                        id: 2,
+                    },
+                ],
+            },
+        },
     ],
 }
 
