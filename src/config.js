@@ -6,7 +6,8 @@ import IssueOptions from "./components/IssueOptions/IssueOptions"
 import LinkList from "./components/LinkList/LinkList";
 
 const config = {
-    initialMessages: [createChatBotMessage("I am glad you wanted to talk to me. First of all it's okay to have issues hiring new agents. What is the issue?", {
+    botName: "Sophie",
+    initialMessages: [createChatBotMessage("Hi I'm Sophie from Clean Fanatic! What type of services do you need?", {
         widget: "issueOptions"
     })],
     customStyles: {
