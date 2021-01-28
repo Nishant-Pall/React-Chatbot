@@ -11,11 +11,11 @@ class ActionProvider {
         this.updateChatbotState(greetingMessage)
     }
 
-    handleJavascriptList = () => {
+    handleLeatherSofa = () => {
         const message = this.createChatBotMessage(
-            "Fantastic, I've got the following resources for you on Javascript:",
+            "What do you want to know?",
             {
-                widget: "javascriptLinks",
+                widget: "leathersofa",
             }
         )
         this.updateChatbotState(message)

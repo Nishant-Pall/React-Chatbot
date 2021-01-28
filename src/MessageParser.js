@@ -13,8 +13,9 @@ class MessageParser {
             this.actionProvider.greet()
         }
 
-        if (lowerCaseMessage.includes("javascript")) {
-            this.actionProvider.handleJavascriptList()
+        if (lowerCaseMessage.includes("Leather Sofa")) {
+            console.log("Clicked")
+            this.actionProvider.handleLeatherSofa()
         }
     }
 }

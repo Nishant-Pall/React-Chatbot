@@ -9,7 +9,7 @@ const IssueOptions = props => {
             handler: () => { },
             id: 1
         },
-        { text: "Leather Sofa", handler: () => { }, id: 2 },
+        { text: "Leather Sofa", handler: props.actionProvider.handleLeatherSofa, id: 2 },
         { text: "Carpet", handler: () => { }, id: 3 },
         { text: "House Cleaning", handler: () => { }, id: 4 },
         { text: "Kitchen", handler: () => { }, id: 5 },
