@@ -5,13 +5,16 @@ import "./IssueOptions.css"
 const IssueOptions = props => {
     const options = [
         {
-            text: "Not Enough ADM's",
+            text: "Sofa",
             handler: () => { },
             id: 1
         },
-        { text: "Not Enough Agency Associates", handler: () => { }, id: 2 },
-        { text: "Low Recruiter Participation", handler: () => { }, id: 3 },
-        { text: "Low Hiring Per Recruiter", handler: () => { }, id: 4 },
+        { text: "Leather Sofa", handler: () => { }, id: 2 },
+        { text: "Carpet", handler: () => { }, id: 3 },
+        { text: "House Cleaning", handler: () => { }, id: 4 },
+        { text: "Kitchen", handler: () => { }, id: 5 },
+        { text: "Bathroom", handler: () => { }, id: 6 },
+        { text: "Full House", handler: () => { }, id: 7 },
     ]
 
 
