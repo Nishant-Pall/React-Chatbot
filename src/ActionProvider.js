@@ -20,7 +20,7 @@ class ActionProvider {
         )
         this.updateChatbotState(message)
     }
-    handleLeatherSofa = () => {
+    handlerLeatherSofa = () => {
         const message = this.createChatBotMessage(
             "What do you want to know?",
             {
